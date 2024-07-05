@@ -61,11 +61,17 @@ gap: 20px;
     }
 }
 @media  all and (max-width:320px) {
+    h1{
+        font-size: 20px;
+        margin: 20px 10px 10px;
+    }
     .card li{
         width: 150px;
+        margin: 15px 0 5px;
+        padding: 4px 4px 8px;
     }
     .card li a{
-        gap: 8px;
+    gap: 8px;
     }
     .text-box{
         gap: 5px;
@@ -76,4 +82,6 @@ gap: 20px;
     .text-box p{
         font-size: 13px;
     }
-}
+    }
+
+
