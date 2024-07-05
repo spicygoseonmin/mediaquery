@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>반응형 연습(택스트)</title>
+    <style>
+        body{
+            background-color:indianred;
+        }
+        h1{
+            font-size: 30vw;
+        }
+        @media all and (max-width:768px) {
+            body{
+                background-color:darksalmon;
+            }
+            h1{
+            /* font-size: 50px; */
+            color: blue;
+            }
+        }
+        @media all and (max-width:320px) {
+            body{
+                background-color:rgb(86, 176, 236);
+            }
+            h1{
+            /* font-size: 30px; */
+            color: rgb(255, 255, 255);
+            }
+        }
+        /* 미디어로 반응형 웹앱 디자인 잡기 */
+        /* 가로 세로 이동시 툴바를 따로 잡거나 영역 분할을 확실히 하기 */
+    </style>
+</head>
+<body>
+    <h1>엄준식</h1>
+    <h2>왕이 넘어지면 킹콩</h2>
+</body>
+</html>
